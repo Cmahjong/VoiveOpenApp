@@ -254,7 +254,9 @@ public class OpenAppActivity extends Activity implements OnClickListener {
         for (int i = 0; i < SpeechApp.appList.size(); i++) {
             if (SpeechApp.appList.get(i).appName.contains(resultBuffer)) {
                 appInfo = SpeechApp.appList.get(i);
+                return;
             }
+
         }
 
     }
