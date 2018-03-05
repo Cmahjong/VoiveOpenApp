@@ -21,11 +21,7 @@ public class SpeechApp extends Application {
         // 设置你申请的应用appid,请勿在'='与appid之间添加空格及空转义符
 
         // 注意： appid 必须和下载的SDK保持一致，否则会出现10407错误
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         SpeechUtility.createUtility(SpeechApp.this, "appid=" + getString(R.string.app_id));
         List<PackageInfo> packages = getPackageManager().getInstalledPackages(0);
         // 以下语句用于设置日志开关（默认开启），设置成false时关闭语音云SDK日志打印

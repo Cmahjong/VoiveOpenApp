@@ -2,7 +2,6 @@ package com.yinjin.expandtextview.voiveopenapp;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.ComponentName;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -27,7 +26,6 @@ import com.iflytek.cloud.ui.RecognizerDialog;
 import com.iflytek.cloud.ui.RecognizerDialogListener;
 import com.iflytek.sunflower.FlowerCollector;
 import com.yinjin.expandtextview.bean.AppInfo;
-import com.yinjin.expandtextview.util.FucUtil;
 import com.yinjin.expandtextview.util.IatSettings;
 import com.yinjin.expandtextview.util.JsonParser;
 
